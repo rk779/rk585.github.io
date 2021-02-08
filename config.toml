@@ -11,7 +11,7 @@ copyright = "© 2020"
 # disqusShortname = ""
 
 # Add your Google Analytics identifier: UA-XXXXXXXX-X
-# googleAnalytics = "" 
+googleAnalytics = "UA-162847450-2"
 
 # Optional params
 [params]
@@ -31,6 +31,10 @@ copyright = "© 2020"
   telegram = "https://t.me/rk585"
   # youtube = "https://www.youtube.com/channel/<your channel>"
   
+  # name and description for meta tags
+  name = "Rahul Krishna D"
+  description = "Personal website for Rahul Krishna (rk585)"
+
   # Titles for your icons (shown as tooltips), and also their display order.
   # Currently, these icons are supported: 
   #   "Twitter", "GitHub", "Email", "Mastodon", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
@@ -67,3 +71,9 @@ copyright = "© 2020"
   name = "blog"
   title = "Blog"
   url = "/blog"
+
+[[menu.main]]
+  identifier = "downloads"
+  name = "downloads"
+  title = "Downloads"
+  url = "https://dl.rk585.tech/"
