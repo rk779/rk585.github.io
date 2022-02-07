@@ -4,8 +4,8 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "Rahul Krishna D"
 languageCode = "en-us"
-baseURL = "https://rk585.tech/"
-copyright = "© 2020"
+baseURL = "https://rk585.ml/"
+copyright = "© 2022"
 
 # Add your Disqus shortname here.
 # disqusShortname = ""
@@ -22,7 +22,7 @@ googleAnalytics = "UA-162847450-2"
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   twitter = "https://twitter.com/rahulkrishna585"
   github = "https://github.com/rk779"
-  email = "mailto:rk@rk585.tech"
+  email = "mailto:rk585@pm.me"
   # mastodon = "https://mastodon.social/@nickname"
   # facebook = "https://facebook.com/<your handle>"
   gitlab = "https://gitlab.com/rk779"
@@ -48,7 +48,7 @@ googleAnalytics = "UA-162847450-2"
   showPageTitleInTOC = false
 
   # Commento base url
-  CommentoURL = "https://commento.rk585.tech"
+  CommentoURL = "https://commento.rk585.ml"
 
 # This disables Hugo's default syntax highlighting in favor
 # of prismjs. If you wish to use Hugo's default syntax highlighting
@@ -79,4 +79,4 @@ googleAnalytics = "UA-162847450-2"
   identifier = "downloads"
   name = "downloads"
   title = "Downloads"
-  url = "https://dl.rk585.tech/"
+  url = "https://dl.rk585.ml/"
