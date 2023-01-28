@@ -6,4 +6,4 @@ Disallow: /static/
 User-agent: *
 Allow: /
 
-Sitemap: https://rk585.tech/sitemap.xml
+Sitemap: https://rk585.in/sitemap.xml
