@@ -1,0 +1,99 @@
+baseURL: "https://rk585.in/"
+paginate: 10
+theme: PaperMod
+title: "Rahul Krishna"
+
+enableRobotsTXT: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+  - identifier: posts
+    name: Blog
+    url: /blog/
+    weight: 1
+  - identifier: about
+    name: About
+    url: about/
+    weight: 2
+  - identifier: downloads
+    name: Downloads
+    url: "https://dl.rk585.in/"
+    weight: 3
+
+params:
+  author: Rahul Krishna
+  title: Rk585
+  description: "My personal blog"
+  keywords: [Blog, rk585, rk779, Rahul Krishna]
+  defaultTheme: auto
+  env: production
+
+  assets:
+    favicon: favicon.ico
+
+  profileMode:
+    enabled: false
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "https://avatars.githubusercontent.com/u/29312667?v=4"
+    imageWidth: 128
+    imageHeight: 128
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: blog
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hello there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: rss
+      url: "/index.xml"
+    - name: email
+      url: "mailto:rk585@pm.me"
+    - name: github
+      url: "https://github.com/rk779"
+    - name: gitlab
+      url: "https://gitlab.com/rk779"
+    - name: instagram
+      url: "https://instagram.com/rk585"
+    - name: linkedin
+      url: "https://linkedin.com/in/rk585"
+    - name: telegram
+      url: "https://t.me/rk585"
+    - name: twitter
+      url: "https://twitter.com/rahulkrishna585"
+    - name: xda
+      url: "https://forum.xda-developers.com/m/rk585.7985055/"
+
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowToc: true
+  ShowWordCount: true
+  comments: true
+
+pygmentsUseClasses: true
